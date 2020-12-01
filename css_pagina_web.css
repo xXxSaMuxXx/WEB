@@ -1,0 +1,114 @@
+        @font-face {
+            font-family: "MiFuente";
+            src: url("ti-83-plus-large.woff") format("woff");
+            src: url('webfont.eot?#iefix') format('embedded-opentype'),
+                 url('webfont.woff2') format('woff2'),
+                 url('webfont.woff') format('woff'),
+                 url('webfont.ttf')  format('truetype'),
+                 url('webfont.svg#svgFontName') format('svg');
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .contenido {
+          padding-top: 20px;
+          margin-left: 120px;
+          color: white;
+        }
+
+        h1 {
+          background-color: chocolate;
+          color: white;
+          text-align: center;
+          padding-top: 60px;
+          font-family: "MiFuente";
+        }
+
+        body {
+          background-image: url(wallpapers-oficiales-ubuntu-14.04-01.jpg);
+        }
+
+/* Comienzo de la cabecera */
+
+        header {
+            width: 100%;
+            text-align: center;
+            background-color: chocolate;
+            position: fixed;
+            z-index: 100;
+        }
+
+        header nav {
+            float: left;
+        }
+
+        header nav ul {
+            list-style: none;
+            overflow: hidden;
+        }
+
+        header nav ul li {
+            float: left;
+            font-family: none;
+        }
+
+        header nav ul li a {
+            display: block;
+            padding: 20px;
+            margin: 0px;
+            color: white;
+            text-decoration: none;
+
+        }
+
+        header nav ul li:hover {
+            background-color: wheat;
+            color: black;
+        }
+
+/* Final de la cabecera */
+
+/* Comienzo del pie */
+
+        footer {
+            background-color: chocolate;
+            color: white;
+            width: 100%;
+        }
+
+        footer h2 {
+            font-size: 24px;
+            padding: 15px;
+            margin: 15px;
+        }
+
+        footer ul {
+            float: left;
+        }
+
+        footer ul li {
+
+            background-color: chocolate;
+            color: white;
+            padding: 30px;
+            margin: 10px;
+            font-size: 18px;
+            font-style: normal;
+            display: block;
+        }
+
+        footer ul li:hover {
+          background-color: wheat;
+          color: black;
+        }
+
+        footer iframe {
+            float: right;
+            margin-bottom: 20px;
+            margin-right: 20px:
+        }
+/* Final del pie */
